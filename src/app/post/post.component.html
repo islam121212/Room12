@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="post-container">
+  <h2>Create New Post</h2>
+
+  <div class="form-group">
+    <label for="imageUpload">Select Image:</label>
+    <input type="file" id="imageUpload" (change)="onFileSelected($event)" accept="image/*">
+    <span *ngIf="selectedFile">Selected: {{ selectedFile.name }}</span>
+  </div>
+
+  <div class="form-group">
+    <label for="description">Description:</label>
+    <textarea id="description" [(ngModel)]="description" rows="5" placeholder="Write a description for your post..."></textarea>
+  </div>
+
+  <button (click)="onUpload()" class="upload-button">Upload Post</button>
+
+ <button class="back-button" [routerLink]="['/profile']">Back to Profile</button>
+
+</div>
