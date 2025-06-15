@@ -1,8 +1,5 @@
 /* استيراد خطوط جوجل و Font Awesome للرموز */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
-/* حاوية لصفحة الإشعارات بأكملها */
 .notifications-container {
   max-width: 900px;
   margin: 3rem auto;
