@@ -1,0 +1,1 @@
+/api/*  http://roomify.runasp.net/api/:splat  200
